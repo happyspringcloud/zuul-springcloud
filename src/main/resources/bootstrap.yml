@@ -9,7 +9,7 @@ spring:
 ---
 spring:
   application:
-    name: zuul-ddd
+    name: zuul-springcloud
   profiles:
     active: ${profile:local}
     include: common
