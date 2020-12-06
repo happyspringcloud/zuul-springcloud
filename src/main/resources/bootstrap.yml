@@ -13,3 +13,4 @@ spring:
   profiles:
     active: ${profile:local}
     include: common
+    
