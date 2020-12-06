@@ -5,7 +5,7 @@ spring:
   cloud:
     config:
       uri: ${config_servers:http://localhost:9001}
-      searchPaths: zuul-ddd
+      searchPaths: zuul-springcloud
 ---
 spring:
   application:
