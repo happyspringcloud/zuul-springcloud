@@ -1,0 +1,16 @@
+{
+  "profile_dev": "dev",
+  "eureka_servers_dev": "http://eureka-ddd-0.eureka-ddd:8761/eureka",
+  "config_servers_dev": "http://config-ddd-0.config-ddd:9001",
+  "mq_host_dev": "rabbitmq",
+  "mq_port_dev": "5672",
+  "mq_id_dev": "guest",
+  "config_server_refresh_uri_dev": "http://config-ddd:9001/actuator",
+  "profile_prod": "prod",
+  "eureka_servers_prod": "http://eureka-ddd-0.eureka-ddd:8761/eureka,http://eureka-ddd-1.eureka-ddd:8761/eureka/,http://eureka-ddd-2.eureka-ddd:8761/eureka/",
+  "config_servers_prod": "http://config-ddd-0.config-ddd:9001,http://config-ddd-1.config-ddd:9001",
+  "mq_host_prod": "rabbitmq",
+  "mq_port_prod": "5672",
+  "mq_id_prod": "guest",
+  "config_server_refresh_uri_prod": "http://config-ddd:9001/actuator"
+}
